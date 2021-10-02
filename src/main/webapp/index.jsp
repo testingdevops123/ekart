@@ -55,7 +55,8 @@ Do you want to buy a Automatic washing machine in the price range up to Rs15,000
 			<div id="tabs-4">
 				<p>OnePlus</p>
 				<p>Apple</p>
-				<p>OnePlus</p>
+				<p>LG</p>
+				<p>MI</p>
 			</div>
 			<div id="tabs-5">
 				<p>A home appliance, also referred to as a domestic appliance, an electric appliance or a household appliance, is a machine which assists in household functions such as cooking, cleaning and food preservation</p>	
