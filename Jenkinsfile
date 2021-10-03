@@ -27,7 +27,14 @@ pipeline {
                 success {
                     junit 'target/surefire-reports/**/*.xml' 
                 }
+            }  
+        }
+        
+        stage ('Deploy'){
+          steps{
+            sh  'echo "deploying into qa server"'
             }
         }
     }
+  
 }
