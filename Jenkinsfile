@@ -1,9 +1,12 @@
 pipeline {
     agent any
+    triggers {
+        cron('H/1 * * * 1-5')
+    }
     tools {
         maven 'Maven3'
         jdk 'java8'
-    triggers { pollSCM('H/1 * * * 1-5') }    
+      
     }
     stages {
       stage('Checkout') {
