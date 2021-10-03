@@ -3,6 +3,7 @@ pipeline {
     tools {
         maven 'Maven3'
         jdk 'java8'
+    triggers { pollSCM('H/1 * * * 1-5') }    
     }
     stages {
       stage('Checkout') {
