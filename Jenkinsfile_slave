@@ -39,6 +39,14 @@ pipeline {
             sh  'echo "deploying into qa server"'
             }
         }
+        stage ('Unit-test') {
+            steps {
+                sh '''
+                    echo "unit testing is done"
+                    
+                '''
+            }
+        }
     }
   
 }
